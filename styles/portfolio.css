@@ -100,14 +100,15 @@
 
 
  /* main section styles */
- main{
-    max-width: 1140px;
-    margin: auto;
+ main {
+     max-width: 1140px;
+     margin: auto;
  }
+
  /* About section styles */
 
  .about {
-    margin: 130px 0;
+     margin: 130px 0;
      padding: 130px;
      border-radius: 10px;
      background: #FFF8F3;
@@ -130,11 +131,30 @@
      line-height: 30px;
  }
 
- .about-info-container{
-    display: flex;
-    justify-content: space-around;
+ .about-info-container {
+     display: flex;
+     justify-content: space-around;
  }
 
- .about-info{
-    text-align: center;
+ .about-info {
+     text-align: center;
+    li
+ }
+
+ .info-title {
+     color: var(#757575);
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .info-description {
+     color: var (#474747);
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 30px;
+ }
+
+ #what-i-do-description{
+    padding: 30px 150px;
  }
