@@ -53,9 +53,9 @@
  /* header related styles */
  .header {
      background-color: #FFF8F3;
-     background-image: url(../images/header_bg.png);
+     background-image: url(../images/header_bg.png), url('../images/developer.png'); 
      background-repeat: no-repeat;
-     background-position: bottom right;
+     background-position: bottom right, top left;
  }
 
  .banner {
@@ -184,6 +184,7 @@
      color: #474747);
      font-size: 30px;
      font-weight: 700;
+     margin-bottom: 30px;
 
  }
 
@@ -203,7 +204,7 @@
      color:  #474747;
      font-size: 25px;
      font-weight: 700;  
-     margin-bottom: 10px;
+     margin-bottom: 5px;
  }
 .resume-title-institute{
     color: #757575;
